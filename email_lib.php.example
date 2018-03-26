@@ -1,0 +1,4 @@
+<?php
+$mail_addresses = array(
+    'putin@cremlin.ru',
+);
