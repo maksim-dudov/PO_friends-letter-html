@@ -17,7 +17,7 @@ else {
     if (file_exists($file_path) === false) die('Номер шаблона либо указан неверною');
 
     $content = file_get_contents($file_path);
-    $subject = 'Test mail delivery';
+    $subject = 'Friends Hostels - mail delivery test - '.date('d.m.Y H:i:s');
 
     $result[]='';
 
