@@ -1,4 +1,5 @@
 <?php
+echo '<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>';
 
 // get the list of email addresses
 require_once('email_lib.php');
