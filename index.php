@@ -19,6 +19,7 @@ else {
 
     $content = file_get_contents($file_path);
     $subject = 'Friends Hostels - mail delivery test - '.date('d.m.Y H:i:s');
+    $headers = 'Content-type: text/html; charset=UTF-8' . "\r\n";
 
     $result[]='';
 
