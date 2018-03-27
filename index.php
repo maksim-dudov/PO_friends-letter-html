@@ -25,7 +25,7 @@ else {
 
     // emails sending
     foreach($mail_addresses as $email){
-        $result[$email] = mail($email,$subject,$content)?'ok':'failure';
+        $result[$email] = mail($email,$subject,$content,$headers)?'ok':'failure';
     }
 
     // print the results
