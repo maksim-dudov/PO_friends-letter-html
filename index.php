@@ -22,6 +22,7 @@ else {
     $headers = 'Content-type: text/html; charset=UTF-8' . "\r\n";
 
     $result[]='';
+    echo 'Результаты рассылки писем:<br />';
 
     // emails sending
     foreach($mail_addresses as $email){
