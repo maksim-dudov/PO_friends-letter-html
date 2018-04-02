@@ -4,7 +4,7 @@ echo '<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>';
 // get the list of email addresses
 require_once('email_lib.php');
 
-// echo welcom page with possible links
+// echo welcome page with possible links
 if (!isset($_GET['tpl']))
     echo '<br /><br />'
     .'<a href="?tpl=1">Разослать шаблон №1</a>'
