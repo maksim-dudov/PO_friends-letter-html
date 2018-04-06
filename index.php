@@ -1,8 +1,12 @@
 <?php
 echo '<meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>';
 
-// get the list of email addresses
-require_once('email_lib.php');
+// file with list of email addresses
+$email_lib_filepath = 'email_lib.php';
+if (!file_exists($email_lib_filepath))
+    die('Файл с адресами получателей "'.$email_lib_filepath.'" не создан.');
+else
+    require_once('email_lib.php');
 
 // echo welcome page with possible links
 if (!isset($_GET['tpl']))
