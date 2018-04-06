@@ -1,4 +1,6 @@
 <?php
+// example file. make the same one with name 'email_lib.php'
+// array with email recepients
 $mail_addresses = array(
     'putin@cremlin.ru',
 );
